@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Booking confirmation
+{% endblock%}
+
+{% block content %}<hr>
+<h1 class="text-center" >Success page</h1>
+<hr>
+
+<div class="container text-center">
+    <!--        <h1>patiant name : {{book.p_name}} </h1>-->
+
+    <!--        <h1></h1>-->
+
+    <!--        <h1></h1>-->
+
+    <!--        <h1></h1>-->
+
+    <div class="alert alert-success" role="alert">
+      Successfully register your appointment request..!<br><br>
+        <a href="{% url 'home' %}"> <button class="btn btn-danger">Back To Home</button></a>
+    </div>
+
+</div>
+{% endblock %}
